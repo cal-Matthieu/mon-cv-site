@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "16789:80"      # expose le port 80 interne sur le port 16789 de ta machine
+    volumes:
+      - ./html:/usr/share/nginx/html  # ton site dans ./html
+    restart: unless-stopped

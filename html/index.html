@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV de Matthieu Calesse</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- En-tête avec navigation -->
+<header>
+  <nav>
+    <div class="logo">Matthieu CALESSE</div>
+    <!-- Checkbox pour le menu hamburger -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <ul id="nav-menu" class="nav-menu">
+      <li><a href="#accueil" class="active">Accueil</a></li>
+      <li><a href="#formations">Formations</a></li>
+      <li><a href="#experiences">Expériences</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <!-- Contenu principal -->
+  <main>
+    <!-- Section Accueil -->
+    <section id="accueil" class="section fade-in">
+      <img src="images/CALESSE-portraits-iut-info-354.jpg" alt="Photo de Matthieu Calesse" class="photo-profil">
+      <h1>Matthieu Calesse</h1>
+      <div class="presentation">
+        <p>
+          Actuellement étudiant en BUT Informatique à l'IUT de Lille.
+          Passionné par les nouvelles technologies depuis plusieurs années, je m'intéresse particulièrement au développement web et logiciel, ainsi qu'à l'intelligence artificielle.
+          Mon objectif est de devenir un développeur polyvalent, capable de concevoir des solutions innovantes et performantes adaptées aux besoins des utilisateurs.
+          Curieux et rigoureux, j'aime acquérir de nouvelles compétences techniques tout en travaillant en équipe sur des projets concrets.
+          Ce CV numérique a pour but de présenter mon parcours, mes réalisations et les compétences que j'ai développées au fil de mes études et de mes expériences.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section Formations -->
+    <section id="formations" class="section">
+      <h2>Formations</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2024 - 2027</div>
+          <div class="timeline-content">
+            <h3>BUT Informatique</h3>
+            <p><strong>IUT de Lille</strong>, Villeneuve d'Ascq – 2ème année</p>
+            <p>Parcours axé sur le développement d'applications, programmation orientée objet, gestion de bases de données, réseaux et méthodes agiles.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2021</div>
+          <div class="timeline-content">
+            <h3>Baccalauréat Général</h3>
+            <p><strong>Lycée Anatole France</strong>, Lillers</p>
+            <p>Spécialités : Mathématiques et NSI (Numérique et Sciences Informatiques)</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2020</div>
+          <div class="timeline-content">
+            <h3>Brevet des Collèges</h3>
+            <p><strong>Collège Sainte-Marie</strong>, Aire-sur-la-Lys</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Expériences -->
+    <section id="experiences" class="section">
+      <h2>Expériences professionnelles</h2>
+      <div class="experience-grid">
+        <div class="experience-card">
+          <h3>Équipier polyvalent</h3>
+          <p class="company">McDonald's</p>
+          <p class="date">Juillet – Août 2025</p>
+          <p class="description">
+            Service client, préparation des commandes et entretien des espaces de travail dans un environnement dynamique.
+          </p>
+          <p class="competences"><strong>Compétences acquises :</strong> Service client, gestion du stress, adaptabilité</p>
+        </div>
+        <div class="experience-card">
+          <h3>Stage découverte industrie</h3>
+          <p class="company">APERAM</p>
+          <p class="date">Juin – Juillet 2022</p>
+          <p class="description">
+            Découverte du fonctionnement d'une usine de sidérurgie en observant les processus industriels et l'utilisation des logiciels spécialisés.
+          </p>
+          <p class="competences"><strong>Compétences acquises :</strong> Observation des processus industriels, initiation aux logiciels spécialisés</p>
+        </div>
+        <div class="experience-card">
+          <h3>Stage découverte kinésithérapie</h3>
+          <p class="company">Cabinet de kinésithérapie</p>
+          <p class="date">Juin – Juillet 2021</p>
+          <p class="description">
+            Assistance dans l'application des techniques de rééducation pour aider les patients souffrant de troubles musculaires et articulaires.
+          </p>
+          <p class="competences"><strong>Compétences acquises :</strong> Observation médicale, accueil des patients, organisation</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="section">
+      <h2>Réalisations & Projets</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Jeu d'échecs avec interface</h3>
+          <p class="tech"><i class="fas fa-code"></i> <strong>Technologies :</strong> Java</p>
+          <p class="date">Juin – Juillet 2025 (BUT Informatique)</p>
+          <p class="description">
+            Développement d'un jeu d'échecs avec interface graphique en utilisant le modèle MVC. Gestion complète des règles du jeu et intégration d'une IA simple pour jouer contre l'ordinateur.
+          </p>
+          <p class="competences"><strong>Compétences acquises :</strong> Programmation orientée objet, création d'interface graphique, algorithmique</p>
+        </div>
+        <div class="project-card">
+          <h3>Jeu Tetris (Méthode Agile)</h3>
+          <p class="tech"><i class="fas fa-code"></i> <strong>Technologies :</strong> Java, Git, Méthodes agiles</p>
+          <p class="date">Septembre 2025 (BUT Informatique)</p>
+          <p class="description">
+            Développement du jeu Tetris en équipe avec gestion de projet agile. Création d'une interface utilisateur intuitive et rédaction de la documentation technique complète.
+          </p>
+          <p class="competences"><strong>Compétences acquises :</strong> Travail en équipe agile, versioning avec Git</p>
+        </div>
+        <div class="project-card">
+          <h3>Jeu Labyrinthe avec interface</h3>
+          <p class="tech"><i class="fas fa-code"></i> <strong>Technologies :</strong> Java, Maven</p>
+          <p class="date">Octobre 2025 (BUT Informatique)</p>
+          <p class="description">
+            Conception d'un jeu de labyrinthe avec génération aléatoire des niveaux. Gestion de l'affichage graphique et optimisation des performances pour une expérience fluide.
+          </p>
+          <p class="competences"><strong>Compétences acquises :</strong> Algorithmique avancée, gestion de projet, optimisation</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="section">
+      <h2>Compétences</h2>
+      <div class="competences-container">
+        <div class="competence-block">
+          <h3><i class="fas fa-laptop-code"></i> Compétences techniques</h3>
+          <ul>
+            <li>Programmation (Python, Java, HTML/CSS)</li>
+            <li>Gestion de bases de données (SQL)</li>
+            <li>Notions de réseaux (TCP/IP, routage, configuration)</li>
+            <li>Méthodes de développement agile</li>
+            <li>Versioning avec Git</li>
+          </ul>
+        </div>
+        <div class="competence-block">
+          <h3><i class="fas fa-users"></i> Compétences humaines</h3>
+          <ul>
+            <li>Travail d'équipe (méthode Agile)</li>
+            <li>Sens de l'organisation</li>
+            <li>Adaptabilité</li>
+            <li>Rigueur</li>
+            <li>Communication</li>
+            <li>Autonomie</li>
+          </ul>
+        </div>
+        <div class="competence-block">
+          <h3><i class="fas fa-music"></i> Loisirs & Activités</h3>
+          <ul>
+            <li>Musique (trompette, alto)</li>
+            <li>Groupes musicaux : Harmonie, BRASS</li>
+            <li>Badminton</li>
+            <li>Développement informatique personnel</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:calmatthieu@yahoo.com">calmatthieu@yahoo.com</a>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>62190 Lillers, France</span>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-id-card"></i>
+          <span>Permis B</span>
+        </div>
+      </div>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/matthieu-calesse-3a06b335a/" target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/cal-Matthieu" target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <a href="doc/cv.pdf" download="CV_Matthieu_Calesse.pdf" class="btn-download">
+        <i class="fas fa-download"></i> Télécharger le CV en PDF
+      </a>
+    </section>
+  </main>
+
+  <!-- Pied de page -->
+  <footer>
+    <p>&copy; 2025 Matthieu Calesse | <a href="https://www.linkedin.com/in/matthieu-calesse/" target="_blank">LinkedIn</a></p>
+  </footer>
+
+  <!-- Script JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
